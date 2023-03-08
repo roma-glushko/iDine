@@ -11,6 +11,12 @@
 		3068A68629B8EDAA00D71F51 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3068A68529B8EDAA00D71F51 /* ContentView.swift */; };
 		3068A68829B8EDAC00D71F51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3068A68729B8EDAC00D71F51 /* Assets.xcassets */; };
 		3068A68B29B8EDAC00D71F51 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3068A68A29B8EDAC00D71F51 /* Preview Assets.xcassets */; };
+		3068A69229B8EDC300D71F51 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3068A69129B8EDC300D71F51 /* Helper.swift */; };
+		3068A69429B8EDD800D71F51 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3068A69329B8EDD800D71F51 /* Menu.swift */; };
+		3068A69629B8EE1800D71F51 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3068A69529B8EE1800D71F51 /* Order.swift */; };
+		3068A69829B8EE2200D71F51 /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = 3068A69729B8EE2200D71F51 /* menu.json */; };
+		3068A69C29B9107A00D71F51 /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3068A69B29B9107A00D71F51 /* ItemRow.swift */; };
+		3068A69E29B923A100D71F51 /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3068A69D29B923A000D71F51 /* ItemDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		3068A68529B8EDAA00D71F51 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3068A68729B8EDAC00D71F51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3068A68A29B8EDAC00D71F51 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3068A69129B8EDC300D71F51 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		3068A69329B8EDD800D71F51 /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		3068A69529B8EE1800D71F51 /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		3068A69729B8EE2200D71F51 /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
+		3068A69B29B9107A00D71F51 /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
+		3068A69D29B923A000D71F51 /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +63,14 @@
 		3068A68229B8EDAA00D71F51 /* iDine */ = {
 			isa = PBXGroup;
 			children = (
+				3068A69729B8EE2200D71F51 /* menu.json */,
+				3068A69529B8EE1800D71F51 /* Order.swift */,
+				3068A69129B8EDC300D71F51 /* Helper.swift */,
+				3068A69329B8EDD800D71F51 /* Menu.swift */,
 				3068A68329B8EDAA00D71F51 /* iDineApp.swift */,
 				3068A68529B8EDAA00D71F51 /* ContentView.swift */,
+				3068A69D29B923A000D71F51 /* ItemDetail.swift */,
+				3068A69B29B9107A00D71F51 /* ItemRow.swift */,
 				3068A68729B8EDAC00D71F51 /* Assets.xcassets */,
 				3068A68929B8EDAC00D71F51 /* Preview Content */,
 			);
@@ -125,6 +143,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3068A69829B8EE2200D71F51 /* menu.json in Resources */,
 				3068A68B29B8EDAC00D71F51 /* Preview Assets.xcassets in Resources */,
 				3068A68829B8EDAC00D71F51 /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +156,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3068A69E29B923A100D71F51 /* ItemDetail.swift in Sources */,
 				3068A68629B8EDAA00D71F51 /* ContentView.swift in Sources */,
 				3068A68429B8EDAA00D71F51 /* iDineApp.swift in Sources */,
+				3068A69629B8EE1800D71F51 /* Order.swift in Sources */,
+				3068A69C29B9107A00D71F51 /* ItemRow.swift in Sources */,
+				3068A69429B8EDD800D71F51 /* Menu.swift in Sources */,
+				3068A69229B8EDC300D71F51 /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
